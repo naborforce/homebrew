@@ -21,7 +21,7 @@ class NodeAT14 < Formula
   keg_only :versioned_formula
 
   # https://nodejs.org/en/about/releases/
-  disable! date: "2024-02-20", because: :unsupported
+  # disable! date: "2024-02-20", because: :unsupported
 
   depends_on "pkg-config" => :build
   # Build support for Python 3.11 was not backported.

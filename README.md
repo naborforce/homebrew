@@ -52,7 +52,7 @@ brew update
 Fetch the formulae in this tap:
 
 ```zsh
-brew tap naborforce/homebrew
+brew tap naborforce/homebrew https://github.com/naborforce/homebrew
 ```
 
 ### Install Node
